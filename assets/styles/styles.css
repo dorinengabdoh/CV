@@ -167,3 +167,15 @@ body {
     flex-wrap: wrap;
   }
 }
+
+.footer {
+  text-align: center;
+  background-color: #009688;
+  color: #fff;
+  padding: 1rem;
+}
+
+.footer > .fa {
+  margin: 1rem 0;
+  color: #fff;
+}
