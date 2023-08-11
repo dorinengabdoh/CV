@@ -3,7 +3,6 @@ body {
 }
 
 .container {
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -47,7 +46,8 @@ body {
   color: #000;
 }
 
-.about-me > p, hr {
+.about-me > p,
+hr {
   margin: 0 1rem;
 }
 
@@ -92,7 +92,7 @@ body {
   width: 25%;
 }
 
-.ps-level, 
+.ps-level,
 .photography-level,
 .illustrator-level,
 .media-level,
@@ -111,7 +111,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
 }
 
 .education {
@@ -134,16 +133,16 @@ body {
   border-radius: 0.2rem;
 }
 
-.work-experience  > h2 {
+.work-experience > h2 {
   color: #757575;
 }
 
-.work-experience >* h5 {
+.work-experience > * h5 {
   font-size: 1rem;
   color: #757575;
 }
 
-.work-experience >* h6 {
+.work-experience > * h6 {
   font-size: 1rem;
   font-weight: 400;
   color: #009688;
@@ -157,9 +156,9 @@ body {
   gap: 1rem;
 }
 
-.job-1 >*,
-.job-2 >*,
-.job-3 >* {
+.job-1 > *,
+.job-2 > *,
+.job-3 > * {
   margin: 0 0.8rem;
 }
 
@@ -184,7 +183,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
   .all-1 {
     display: flex;
     flex-direction: column;
