@@ -10,6 +10,8 @@ body {
   max-width: 88rem;
   margin: 1rem auto;
   gap: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .fa {
@@ -24,7 +26,7 @@ body {
   gap: 1rem;
   color: #757575;
   box-shadow: #00000059 0 0.4rem 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .about-me > img {
@@ -105,15 +107,16 @@ body {
 }
 
 .right-col {
-  background-color: aliceblue;
-  width: 96%;
-  max-width: 60rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
 }
 
-@media screen and (max-width: 425px) {
-  .container {
-    flex-wrap: wrap;
-  }
+.education {
+  box-shadow: #00000059 0 0.4rem 1rem;
+  padding: 1rem 1.5rem;
 }
 
 .work-experience {
@@ -162,20 +165,45 @@ body {
 
 /* MEDIA QUERRIES */
 
-@media screen and (max-width: 425px) {
-  .container {
-    flex-wrap: wrap;
-  }
-}
-
 .footer {
   text-align: center;
   background-color: #009688;
   color: #fff;
-  padding: 1rem;
+  width: 100%;
+  box-shadow: #00000059 0 0.4rem 1rem;
 }
 
 .footer > .fa {
   margin: 1rem 0;
   color: #fff;
+}
+
+.all-1 {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+
+  .all-1 {
+    display: flex;
+    flex-direction: column;
+    width: 96vw;
+  }
+
+  .footer {
+    padding: 0;
+    margin: 0;
+    width: 96vw;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .about-me {
+    margin: 0 auto;
+  }
 }
